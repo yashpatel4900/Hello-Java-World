@@ -85,6 +85,18 @@ class Main {
         // String className = income > 100_000 ? "First" : "Second";      //Ternary Operator
         // System.out.println(className);
 
-        
+        System.out.println("Enter Role (admin/moderator): ");
+        Scanner sc = new Scanner(System.in);
+        String role = sc.next();
+        switch (role){
+            case "admin":
+                System.out.println("You're an admin");
+                break;
+            case "moderator":
+                System.out.println("You're a moderator");
+                break;
+            default :
+                System.out.println("You're a guest");
+        }
     }
 }
