@@ -70,15 +70,21 @@ class Main {
         // String result = curreny.format(1234567.891);
         // System.out.println(result);
 
-        String result = NumberFormat.getPercentInstance().format(0.1);     //F2 to rename all at a time
-        System.out.println(result);
+        // String result = NumberFormat.getPercentInstance().format(0.1);     //F2 to rename all at a time
+        // System.out.println(result);
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Value of A: ");                       //Input using Scanner class
-        int a = sc.nextInt();
-        System.out.println("Enter Name: "); 
-        String name = sc.next().trim();
-        System.out.println("You are " + name);   
-        System.out.println("Value of A entered is: " + a);
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter Value of A: ");                       //Input using Scanner class
+        // int a = sc.nextInt();
+        // System.out.println("Enter Name: "); 
+        // String name = sc.next().trim();
+        // System.out.println("You are " + name);   
+        // System.out.println("Value of A entered is: " + a);
+
+        // int income =120_000;
+        // String className = income > 100_000 ? "First" : "Second";      //Ternary Operator
+        // System.out.println(className);
+
+        
     }
 }
