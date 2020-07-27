@@ -36,7 +36,7 @@ class Main {
         // Arrays.sort(numbers);
         // System.out.println(Arrays.toString(numbers));
 
-        // int[][] numbers = {{1,2,3},{1,2,3}}; //Multidimensional Array
+        // int[][] numbers = {{1,2,3},{1,2,3}};                 //Multidimensional Array
         // System.out.println(Arrays.deepToString(numbers));
 
         // final float PI = 3.14F; //To declare constant
@@ -116,9 +116,12 @@ class Main {
         //     j++;
         // } while(j<5);
 
-        String[] fruits = { "Apple", "Mango", "Orange"};
-        for(String fruit: fruits){
-            System.out.println(fruit);
-        }
+        // String[] fruits = { "Apple", "Mango", "Orange"};
+        // for(String fruit: fruits){
+        //     System.out.println(fruit);
+        // }
+
+        int a =(int) (220 - 0.133);
+        System.out.println(a);
     }
 }
